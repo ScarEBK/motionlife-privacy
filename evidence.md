@@ -25,5 +25,5 @@ numbers are masked before anything is stored, and closed tickets are deleted.
 ## 3. Moderation
 
 In public channels Mo checks message text for spam bursts and hacked-account scam posts ("check my bio"
-lures). Those are deleted, the sender gets a short timeout, and the server owner gets an alert with a
+lures). Those are deleted, the sender gets a timeout (10 minutes for spam, 24 hours for scam posts), and the server owner gets an alert with a
 "Not spam, unmute" button. Public chat text is not stored; the check only holds the last 15 minutes in memory.
